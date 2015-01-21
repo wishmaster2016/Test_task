@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+.whiteBgd {
+	height:	100%;
+}
+
 .bgImg {
 	background-image: url(../images/background.png);
 	background-size:100% 100%;
@@ -38,44 +42,54 @@ body {
 	width: 103px;
 	background-color: lightblue;
 	color: white;
+	z-index: 10;
 }
 
 .centered-container {
-	height: 50px;
+	height: 40px;
 	width: 70%;
-	/*background-color: red;*/
-/*	top: 50%;
-	margin: 0px auto;*/
 	margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 	font-family: 'wf_SegoeUILight';
 	font-weight: 500;
-/*  font-family: Georgia, 'Times New Roman', Times, serif;
-	font-weight: lighter;*/
 	font-size: 25pt;
 	color: white;
 	text-align: center;
 }
 
+.bottom-container {
+	height: 40px;
+	width: 40%;
+	margin: auto;
+  position: absolute;
+  background-color: lightblue;
+  left: 0; bottom: 30px; right: 0;
+	font-family: 'wf_SegoeUILight';
+	font-weight: 500;
+	font-size: 25pt;
+	color: white;
+	text-align: center;
+}
+
+.goalInp {
+	width: 100px;
+}
 
 input {
+	width: 100px;
 	background-color: transparent;
 	font-family: 'wf_SegoeUINormal' !important; 
   font-weight: 700 !important;
-/*  background-color: red;*/
 	text-align: center;
   border: 0px solid;
-  color: red;
   height:50px;
   width:260px;
 }
-input:focus {
 
-/*  background-color: blue;*/
+input:focus {
   border-bottom: 2px solid white;
 	text-align: center;
-
   font-family: 'wf_SegoeUILight' !important;
   font-weight: 500 !important;
   outline:none;
