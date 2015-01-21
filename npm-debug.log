@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'express@latest', null ]
+7 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'express@latest',
+8 verbose parsed url   path: 'express@latest',
+8 verbose parsed url   href: 'express@latest' }
+9 verbose cache add name="express" spec="latest" args=["express","latest"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'latest',
+10 verbose parsed url   path: 'latest',
+10 verbose parsed url   href: 'latest' }
+11 verbose addNamed [ 'express', 'latest' ]
+12 verbose addNamed [ null, null ]
+13 silly lockFile c30a01ab-express-latest express@latest
+14 verbose lock express@latest C:\Users\user\AppData\Roaming\npm-cache\c30a01ab-express-latest.lock
+15 info addNameTag [ 'express', 'latest' ]
+16 verbose request where is /express
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id eae9e555050478f5
+19 verbose url raw /express
+20 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+21 verbose url resolved https://registry.npmjs.org/express
+22 verbose request where is https://registry.npmjs.org/express
+23 info trying registry request attempt 1 at 13:55:23
+24 http GET https://registry.npmjs.org/express
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info trying registry request attempt 2 at 13:55:54
+27 http GET https://registry.npmjs.org/express
+28 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+29 info trying registry request attempt 3 at 13:57:15
+30 http GET https://registry.npmjs.org/express
+31 silly lockFile c30a01ab-express-latest express@latest
+32 silly lockFile c30a01ab-express-latest express@latest
+33 error network connect ETIMEDOUT
+33 error network This is most likely not a problem with npm itself
+33 error network and is related to network connectivity.
+33 error network In most cases you are behind a proxy or have bad network settings.
+33 error network
+33 error network If you are behind a proxy, please make sure that the
+33 error network 'proxy' config is set properly.  See: 'npm help config'
+34 error System Windows_NT 6.1.7601
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express"
+36 error cwd C:\Users\user\Desktop\Dashmote_app
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error syscall connect
+40 error code ETIMEDOUT
+41 error errno ETIMEDOUT
+42 verbose exit [ 1, true ]

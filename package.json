@@ -18,10 +18,7 @@
     "url" : "https://github.com/wishmaster2016/worktime-control.git"
   },
   "dependencies" : {
-    "async": "latest",
-    "body-parser": "latest",
-    "express": "latest",
-    "pg": "latest"
+    "express": "latest"
   },
   "license" : "MIT"
 }
